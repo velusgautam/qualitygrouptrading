@@ -1,0 +1,128 @@
+/*
+  960 Grid System ~ Text CSS.
+  Learn more ~ http://960.gs/
+
+  Licensed under GPL and MIT.
+*/
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: 'DroidSansRegular', Arial, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	height:100%;
+}
+hr {
+	clear: both;
+	height: 10px;
+	margin-top:30px;
+	margin-bottom:30px;
+	background:url('../img/frame_bg.gif') repeat-x 50% 50%;
+}
+.title-background {
+	background:url('../img/frame_bg.gif') repeat-x 0px 50%;
+	margin-bottom:10px;
+	overflow:hidden;
+}
+.title-background h4 {
+	background-color:#fff;
+	margin:0;
+	display:inline-block;
+	min-width:75px;
+	padding-right:15px;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+:focus, a:focus {
+	outline:none;
+}
+:active, a:active {
+	outline:none;
+}
+:focus {
+	-moz-outline-style:none;
+}
+strong {
+	font-family: 'DroidSansBold', Arial, sans-serif;
+	font-weight:400;
+}
+/* `Headings
+----------------------------------------------------------------------------------------------------*/
+
+h1 {
+	font-size: 22px;
+	line-height:25px;
+}
+h2 {
+	font-size: 20px;
+	line-height:23px;
+}
+h3 {
+	font-size: 18px;
+	line-height:21px;
+}
+h4 {
+	font-size: 16px;
+	line-height:19px;
+}
+h5 {
+	font-size: 14px;
+	line-height:17px;
+}
+h6 {
+	font-size: 12px;
+	line-height:15px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'DroidSerifRegular', Arial, sans-serif;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+}
+blockquote.style1, blockquote.style2 {
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	font-size:13px;
+	font-family: 'DroidSerifRegular', Arial, sans-serif;
+	text-align:center;
+}
+table th {
+	text-align:center;
+	font-family: 'DroidSerifRegular', Arial, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+}
+#accordion h3 {
+	font-family: 'DroidSansRegular', Arial, sans-serif;
+}
+.jqueryslidemenu {
+	font-family: 'DroidSansRegular', Arial, sans-serif;
+}
+/* `Spacing
+----------------------------------------------------------------------------------------------------*/
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 10px;
+}
+p {
+	margin-top:10px;
+}
+p:first-child {
+	margin:0;
+}

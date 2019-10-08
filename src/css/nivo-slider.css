@@ -1,0 +1,284 @@
+
+ 
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+}
+.nivoSlider img {
+	position:absolute;
+	left:0;
+	top:0px;
+}
+.slider_overlay {
+	background-image: url('../img/slider_overlay.png');
+	background-repeat: repeat-x;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:10; /* Make sure it is visible above the slides */
+	min-height:500px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:9;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+	
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	width:940px;
+	height:500px;
+	z-index:11;
+	overflow:hidden;
+	background:transparent !important;
+	left:50%;
+	margin-left:-470px;
+}
+p.title {
+	position:absolute;
+}
+p.slider_button {
+	position:absolute;
+}
+
+p.sloganwrap {
+	position:absolute;
+	width:350px;
+	height:350px;
+}
+
+p.infotext {
+	position:absolute;
+}
+
+p.slogan {
+	width:0px;
+	height:0px;
+}
+
+.nivo-caption a {
+	display:inline !important;
+	text-decoration:none;
+}
+.nivo-html-caption {
+	display:none;
+	text-decoration:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:50%;
+	z-index:12;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+	
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {
+	position:relative;
+	z-index:13;
+	cursor:pointer;
+	
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+/* Nivo Grid by UnitedThemes for easy Image positioning */
+.nivogrid_1 {
+	top:0px;
+	left: 0px;
+}
+.nivogrid_2 {
+	top:0px;
+	left: 200px;
+}
+
+.nivogrid_3 {
+	top:0px;
+	left: 400px;
+}
+
+.nivogrid_4 {
+	top:0px;
+	left: 600px;
+}
+
+.nivogrid_5 {
+	top:0px;
+	left: 800px;
+}
+
+.nivogrid_6 {
+	top: 105px;
+	left: 0px;
+}
+.nivogrid_7 {
+	top: 105px;
+	left: 200px;
+}
+
+.nivogrid_8 {
+	top: 105px;
+	left: 400px;
+}
+
+.nivogrid_9 {
+	top: 105px;
+	left: 600px;
+}
+
+.nivogrid_10 {
+	top: 105px;
+	left: 800px;
+}
+.nivogrid_11 {
+	top: 210px;
+	left: 0px;
+}
+.nivogrid_12 {
+	top: 210px;
+	left: 200px;
+}
+
+.nivogrid_13 {
+	top: 210px;
+	left: 400px;
+}
+
+.nivogrid_14 {
+	top: 210px;
+	left: 600px;
+}
+
+.nivogrid_15 {
+	top: 210px;
+	left: 800px;
+}
+
+.nivogrid_16 {
+	top: 330px;
+	left: 0px;
+}
+.nivogrid_17 {
+	top: 330px;
+	left: 200px;
+}
+
+.nivogrid_18 {
+	top: 330px;
+	left: 400px;
+}
+
+.nivogrid_19 {
+	top: 330px;
+	left: 600px;
+}
+
+.nivogrid_20 {
+	top: 330px;
+	left: 800px;
+}
+
+/* 2 class for positioning top and bottom floatiing items left and right */
+.spaceleft {
+	left:100px;
+}
+.spaceright {
+	right:100px;
+}
+
+/* Caption Element Styles */
+p.title.capstyle1 {
+	margin:0;
+	font-size:22px;
+	line-height:25px;
+	color:#000;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+
+p.infotext.capstyle1 {
+	margin:0;
+	font-size:14px;
+	line-height:20px;
+	color: #000;
+	width:450px;	
+}
+
+/* capstyles 2*/
+p.title.capstyle2 {
+	margin:0;
+	font-size:22px;
+	line-height:25px;
+	color:#FFF;
+	text-transform:uppercase;
+	font-weight:bold;
+}
+p.infotext.capstyle2 {
+	margin:0;
+	font-size:14px;
+	line-height:20px;
+	color: #fff;
+	width:450px;
+}
+.slider_button {
+	margin:0;
+	  cursor: pointer;
+  display: inline-block;
+  background-color: #e6e6e6;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), color-stop(25%, #ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -ms-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: -o-linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  background-image: linear-gradient(#ffffff, #ffffff 25%, #e6e6e6);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e6e6e6', GradientType=0);
+  padding: 5px 14px 6px;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  color: #333;
+  font-size: 12px;
+  line-height: normal;
+  border: 1px solid #ccc;
+  border-bottom-color: #bbb;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  text-decoration:none !important;
+
+}
+.slider_button:hover {
+	background-position: 0 -15px;
+	color: #333;
+	text-decoration: none !important;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "qualitygrouptrading",
+  "version": "1.0.0",
+  "description": "qualitygrouptrading",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/velusgautam/qualitygrouptrading.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/velusgautam/qualitygrouptrading/issues"
+  },
+  "homepage": "https://github.com/velusgautam/qualitygrouptrading#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
